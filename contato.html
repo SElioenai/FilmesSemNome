@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    </head>
+    <body>
+    <header class="d-flex flex-column flex-md-row align-items-center px-md-4 nav-bg-black border-bottom shadow-sm">
+    <nav class="navbar navbar-expand-md navbar-dark nav-bg-black fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img class= "logo" src="img/logo_1.jpg"></a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="produtora.html">Produtora</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="filmes.html">Filmes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+            </ul> 
+        </div>
+    </nav>
+    </header>
+    <main class="bg-black">
+        <div class="container primeiro">
+            <div class="row gx-5">
+                
+                <div id="formulario" class="col-md-6 col-lg-4">
+                    <h2>ENTRE EM CONTATO</h2>
+                    <form class="form-floating" id="formulario2" method="POST" action="https://formspree.io/xgennkay">
+                        <div class="form-floating">
+                            <input type="textarea" class="form-control" name="nome" required="">
+                            <label for="nome" class="form-label"> Nome</label><br>
+                        </div>
+                        <div class="form-floating">
+                            <input type="textarea" class="form-control" name="email" required="">
+                            <label for="email"> Email</label><br>
+                        </div>
+                        <div class="form-floating">
+                            <textarea name="mensagem" class="form-control" rows="6" cols="32" required=""></textarea>
+                            <label for="mensagem" > Mensagem</label> <br>
+                        </div>
+                        
+                        <input class="btn btn-dark" type="submit" value="Enviar mensagem">
+                    </form>
+                </div>
+                <div id="contatos" class="col-md-6 col-lg-5">
+                        <div class="row">
+                            <h1>FALE CONOSCO</h1>
+                            <ul id="email-telefone"></ul>
+                            <li><i class="far fa-envelope-open" aria-hidden="true"></i>@.com.br</li>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i>+55 (11) 00000 0000</li>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i>+55 (11) 00000 0000</li>
+                        </ul>
+                        </div>
+                        <div  id="redes-sociais">
+                            <br>
+                            <a target="_blank" class="redes-sociais" href="https://www.facebook.com/filmesemnome/"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                            <a target="_blank" class="redes-sociais" href="https://www.instagram.com/filmessemnome"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                            <a target="_blank" class="redes-sociais" href="https://www.youtube.com/channel/UCLVjWmzj4hcNMimFGnAHBsw/channels"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                            <a target="_blank" class="redes-sociais" href="https://vimeo.com/filmesemnome"><i class="fab fa-vimeo" aria-hidden="true"></i></a>
+                        </div>     
+                    </div>
+             </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    </body>
+</html>
+ 
