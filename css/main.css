@@ -1,0 +1,219 @@
+/* html {
+    height: 100%;
+    background-color: black !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: 30%;
+} */
+body{
+    background-color: black !important;
+}
+.bg-black{
+    background-color: black;
+}
+.p-bg-black{
+    background-color: rgba(0, 0, 0, 0.774);
+}
+a:link{
+    text-decoration: none;
+}
+
+/*#######  NAVBAR ######*/
+.nav-bg-black{
+    background-color: black!important
+}
+.nav-link{
+    color: white;
+}
+.nav-text{
+    color: black;
+}
+
+#container-nav{
+    margin-top: 15px;
+    display: flex !important;
+    justify-content: center !important;
+}
+ul{
+    margin-left: 30px;
+
+}
+li a {
+    font-size: 15px;
+    font-weight: 250;
+    color: rgb(102, 100, 94);
+    transition: 0.5s;
+    margin-right: 50px;
+    background-color: rgba(0, 0, 0, 0.774);
+
+}
+li a:hover {
+    color: rgb(53, 49, 49);
+}
+#logo{
+    display: grid;
+}
+
+.logo{
+    padding-left: 10%; 
+    margin-left: 5%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.logo-name{
+    margin-left: 5%;
+    padding-top: none;
+    width: 120px;
+    height: 30px;
+
+}
+
+.logo:hover{
+    animation: rotating 5s infinite linear;
+}
+
+  @-webkit-keyframes rotating {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  .rotating {
+    -webkit-animation: rotating 2s linear infinite;
+    -moz-animation: rotating 2s linear infinite;
+    -ms-animation: rotating 2s linear infinite;
+    -o-animation: rotating 2s linear infinite;
+    animation: rotating 2s linear infinite;
+  }
+
+
+
+/*#######  Pagina Home ######*/
+.home-body {
+    background:url('backgroundImg.gif') repeat-y 50% 50% fixed;
+    height:100%;
+    width:100%;
+} 
+
+.videoPlayerContainer {
+    width: 50%;
+    height: 100%;
+    margin: 50px auto;
+    display: block;
+}
+
+.font_home{
+    font-size:14px;
+    text-align:center;
+    font-weight:bold;
+    color: rgb(161, 159, 159);
+    text-decoration: none;
+}
+
+/*######### A Produtora #######*/
+.page-title-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+.about-quote{
+    padding-inline: 30%;
+    margin-top: 25px;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    color: white;
+}
+.about-body{
+    padding-inline: 20%;
+    margin-top: 25px;
+    text-align: justify;
+    font-size: 12;
+    color: white;
+    tab-size: 4;
+}
+.about-footer{
+    padding-inline: 20%;
+    margin-top: 25px;
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 10;
+    color: white;
+}
+.about-gif{
+    width: 60%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+/*######### FILMES #######*/
+.poster{
+    background-color: white;
+    margin-top: 10%;
+    width: auto;
+    height: 400px;
+}
+.filter{
+    display: none; /* Hide all elements by default */
+}
+.show {
+    display: block;
+  }
+  
+.btContainer{
+    margin: 25px;
+}
+/* Style the buttons */
+.bt {
+    border: none;
+    outline: none;
+    padding: 1px 5px;
+    margin: 5px;
+    background-color: rgba(33, 33, 33, 0);
+    cursor: pointer;
+    color: white;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .bt:hover {
+    color: rgb(166, 163, 163);
+  }
+  
+  /* Add a dark background color to the active button */
+  .bt.active {
+    background-color: rgb(251, 248, 248);
+     color: rgb(0, 0, 0);
+  }

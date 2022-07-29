@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <base href="./">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    </head>
+    <body class="home-body">
+    <header>
+    <nav class="navbar navbar-expand">
+        <div class="container-fluid" id="container-nav">
+            <div>
+                <a class="navbar-brand" href="index.html" id="logo">
+                    <img class= "logo" src="img/inicio/logo_2.png">
+                    <img class= "logo-name" src="img/inicio/logo_name.png">
+                </a>
+
+            </div>
+            <ul class="nav ">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="produtora.html">A PRODUTORA</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">FILMES</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="filmes.html">Realizados</a></li>
+                        <li><a class="dropdown-item" href="#">Em Desenvolvimento</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">OUTROS PROJETOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">CONTATO</a>
+                </li>
+            </ul> 
+        </div>
+    </nav>
+    </header>
+    <main>
+        <div class="container text-center">
+            <div>
+                <div class="btContainer" id="myBtnContainer">
+                    <button class="bt  active" onclick="filterSelection('all')"> Todos</button>
+                    <button class="bt" onclick="filterSelection('documentario')"> Documentario</button>
+                    <button class="bt" onclick="filterSelection('ficcao')"> Ficção</button>
+                    <button class="bt" onclick="filterSelection('video-arte')"> Video Arte</button>
+                    <button class="bt" onclick="filterSelection('video-clip')"> Video Clip</button>
+                  </div>
+            </div>
+            <div class="row row-cols-auto d-flex justify-content-center">
+                <div class="col ficcao filter">
+                  <div class="content">
+                    <img class="poster" src="img/filmes/quanto_tempo_tem_o_tempo_se_nao_estamos_juntos/quanto_tempo_tem_o_tempo_cartaz.jpg">
+                  </div>
+                </div>
+                <div class="col ficcao filter">
+                  <div class="content">
+                    <img class="poster" src="img/filmes/rassvet/rassvet_cartaz.jpg">
+                  </div>
+                </div>
+                <div class="col video-clip filter">
+                  <div class="content">
+                    <img class="poster" src="img/filmes/caminho_de_jibóia/caminho_de_jiboia_cartaz.jpg">
+                  </div>
+                </div>
+            </div> 
+            <div class="row row-cols-auto d-flex justify-content-center">
+                <div class="col video-arte filter">
+                  <div class="content">
+                    <img class="poster" src="img/filmes/manifesto_primavera_nos_dentes/manifesto_primavera_nos_dentes_cartaz.jpg">
+                  </div>
+                </div>
+            </div>
+              
+        </div>
+        <div>
+            <div class="container p-2 pb-0">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                  <!-- Facebook -->
+                  <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                       
+                  <!-- Google -->
+                  <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                    ><i class="fab fa-google"></i
+                  ></a>
+            
+                  <!-- Instagram -->
+                  <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+
+                </section>
+                <!-- Section: Social media -->
+              </div>
+              <!-- Grid container -->
+            
+              <!-- Copyright -->
+              <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2022
+              </div>
+              <!-- Copyright -->
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="js/filter.js"></script>
+    </body>
+</html>
