@@ -7,10 +7,16 @@
     background-position-x: 30%;
 } */
 body{
-    background-color: black !important;
+    background:url(FOLHA\ DE\ PORTFÓLIO\ DA\ FILMES\ SEM\ NOME\ -\ AmplificaCine\ \(1\)_page-0001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    height:auto;
+    width:auto;
 }
 .bg-black{
-    background-color: black;
+    background-color: rgb(175, 18, 18);
 }
 .p-bg-black{
     background-color: rgba(0, 0, 0, 0.774);
@@ -187,7 +193,7 @@ li a:hover {
     height: 400px;
 }
 .filter{
-    display: none; /* Hide all elements by default */
+    display: none; 
 }
 .show {
     display: block;
@@ -196,7 +202,6 @@ li a:hover {
 .btContainer{
     margin: 25px;
 }
-/* Style the buttons */
 .bt {
     border: none;
     outline: none;
@@ -207,13 +212,77 @@ li a:hover {
     color: white;
   }
   
-  /* Add a grey background color on mouse-over */
   .bt:hover {
     color: rgb(166, 163, 163);
   }
   
-  /* Add a dark background color to the active button */
   .bt.active {
     background-color: rgb(251, 248, 248);
      color: rgb(0, 0, 0);
   }
+/*###### PAGINAS DE FILMES######*/
+.movie-title{
+    display: block;
+    max-width:70%;
+    max-height:70%;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 60px;
+}
+.movie-resume{
+    text-align: justify;
+    font-size: 12;
+    color: white;
+    padding-right:30%;
+}
+.movie-info{
+    text-align: justify;
+    font-size: 12;
+    color: white;
+    padding-left: 10px;
+}
+.movie-info-row{
+    padding-inline: 15%;
+}
+h4{
+    padding-top: 0px;
+    padding-left: 0px;
+    color: white;
+}
+.movie-teaser {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+/*######  QUEM SOMOS #######*/
+
+.about-img {
+    display: block;
+    max-width:70%;
+    max-height:70%;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 50px;
+}
+.about-text {
+    text-align: justify;
+    font-size: 12;
+    color: white;
+    margin-right: 40%;
+}
+.about-row {
+    display: flex;
+    align-items: center;
+}
+h5{
+    color: white;
+
+}
