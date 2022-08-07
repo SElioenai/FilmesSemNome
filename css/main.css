@@ -15,8 +15,9 @@ body{
     height:auto;
     width:auto;
 }
-.bg-black{
-    background-color: rgb(175, 18, 18);
+.footer-text {
+    color: white;
+    padding-top: 5%;
 }
 .p-bg-black{
     background-color: rgba(0, 0, 0, 0.774);
@@ -284,5 +285,13 @@ h4{
 }
 h5{
     color: white;
-
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.instagram-account {
+    text-align: justify;
+    font-style: italic;
+    font-size: 9;
+    color: white;
+    margin-bottom: 50px;
 }
